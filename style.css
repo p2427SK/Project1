@@ -38,6 +38,7 @@ h1 {
 }
 
 .container {
+    
     display: flex;
     margin: 0 auto;
     width: 95%;
@@ -53,12 +54,13 @@ h1 {
     margin-right: auto;
 }
 .progress-holder {
-    
+    position:relative;
+    height: 18px;
     width: 80%;
     background-color: black;
 }
 .progress {
-    
+    position:absolute;
     width: 50%;
     background-color: red;
     left: 0;
